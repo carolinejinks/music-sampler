@@ -1,0 +1,85 @@
+* {
+    -webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+			box-sizing: border-box;
+}
+
+
+header {
+  position: fixed;
+  text-align: center;
+  background: #000;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+
+}
+
+h1 {
+  font-size: 60px;
+  color: #fff;
+  font-family: 'Cinzel', serif;
+}
+
+body {
+  font-family: 'Khula', sans-serif;
+  font-size: 20px;
+}
+
+#image{
+  padding-top: 150px;
+  padding-right: 20px;
+  float: left;
+  clear: both;
+  width: 40%;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+
+#text{
+  width: 60%;
+  padding-top: 160px;
+  padding-right: 50px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  float: right;
+}
+
+audio{
+  width: 200px;
+}
+
+img{
+  padding: 5px;
+}
+
+footer {
+  font-family: 'Cinzel', serif;
+  padding: .5em 1em;
+  text-align: center;
+  clear: both;
+  background: #000;
+  color: #fff;
+}
+
+
+@media (max-width: 1000px) {
+#image, #text {
+  margin: 0;
+  width: 100%;
+ }
+#text{
+  padding-top: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.albumCover{
+  float: left;
+}
+
+}
